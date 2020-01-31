@@ -23,7 +23,7 @@ class BooleanType extends React.Component<Props, State> {
             <View style={{ margin: 15 }}>
                 <Text style={{ lineHeight: 30, fontSize: 16 }}>boolean</Text>
                 <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
-                    <Text style={{ lineHeight: 30, fontSize: 18, marginRight: 10 }} >Work Completed?</Text>
+                    <Text style={{ lineHeight: 30, fontSize: 18, marginRight: 10 }} >Is assigned work completed?</Text>
                     <Switch value={this.state.isCompleted} onValueChange={(value) => { this.setState({ isCompleted: value }) }} />
                 </View>
                 <Text style={{ textAlign: 'center', lineHeight: 40, fontSize: 18, color: "#339aef" }}>{`isCompleted = ${this.state.isCompleted}`}</Text>
