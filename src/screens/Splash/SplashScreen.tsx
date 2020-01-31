@@ -23,7 +23,7 @@ class SplashScreen extends React.Component<Props>{
         return (
             <View style={{ flex: 1, justifyContent: 'center' }}>
                 <View>
-                    <Text style={{ marginHorizontal: 50, textAlign: 'center', fontSize: 25, marginBottom: 10 }}>Learning Space!!</Text>
+                    <Text style={{ marginHorizontal: 50, textAlign: 'center', fontSize: 25, marginBottom: 10 }}>Learning Space</Text>
                     <ActivityIndicator color="#339aef" size='large' />
                 </View>
             </View>
